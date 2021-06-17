@@ -1,0 +1,9 @@
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.control-label {
+  font-size: medium;
+  font-weight:bold;
+  font-family:'Times New Roman', Times, serif
+}
