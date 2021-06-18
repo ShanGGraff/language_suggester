@@ -15,13 +15,13 @@ $(document).ready(function() {
     console.log(semiColons);
 
   if (scriptingCompiled === "Scripting" && coffee === "No" && gophers === "No" && monty === "Yes" && semiColons === "No") {
-    alert("May we suggest Python");
+    $('#python').show();
   } else if (scriptingCompiled === "Compiled" && coffee === "Yes" && gophers === "No" && monty === "No" && semiColons === "Yes") {
-    alert("May we suggest Java"); 
+    $('#java').show(); 
   } else if (scriptingCompiled === "Compiled" && coffee === "No" && gophers === "Yes" && monty === "No" && semiColons === "Yes") {
-    alert("May we suggest Go");
+    $('#go').show();
   } else {
-    alert("We saddly have no suggestions for you");
+    $('#noSuggestion').show();
   }
 
     // $("#output").text(result);

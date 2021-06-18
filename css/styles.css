@@ -5,9 +5,14 @@ h1 {
 .control-label {
   font-size: medium;
   font-weight:bold;
-  font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
+  box-sizing:border-box;
 }
 
-/* .control-label {
-  box-sizing:border-box;
-} */
+#python, #java, #go, #noSuggestion {
+  display: none;
+}
+
+.container {
+  
+}
