@@ -25,3 +25,7 @@ h1 {
 .sidebar {
   border: 1px solid black;
 }
+
+.answers {
+  display: none;
+}

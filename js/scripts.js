@@ -3,6 +3,11 @@
 //UserInterface Logic
 $(document).ready(function() {
   $("form#language").submit(function(event) {
+    $('#python').hide();
+    $('#go').hide();
+    $('#java').hide();
+    $('#noSuggestion').hide();
+    
     const scriptingCompiled = $("#scriptingCompiled").val();
     console.log(scriptingCompiled);
     const coffee = $("#coffee").val();
