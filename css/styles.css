@@ -2,6 +2,11 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.banner {
+  border: 1px solid black;
+  padding: 4px;
+  margin: 12px;
+}
 .control-label {
   font-size: medium;
   font-weight:bold;
@@ -13,14 +18,10 @@ h1 {
   display: none;
 }
 
-/* .container {
-  
-} */
-
 h1 {
   text-align:center;
 }
 
 .sidebar {
-  border:black;
+  border: 1px solid black;
 }
