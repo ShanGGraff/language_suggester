@@ -9,15 +9,10 @@ $(document).ready(function() {
     $('#noSuggestion').hide();
     
     const scriptingCompiled = $("#scriptingCompiled").val();
-    console.log(scriptingCompiled);
     const coffee = $("#coffee").val();
-    console.log(coffee);
     const gophers =  $("#gophers").val();
-    console.log(gophers);
     const monty = $("#monty").val();
-    console.log(monty);
     const semiColons = $("#semiColons").val();
-    console.log(semiColons);
 
   if (scriptingCompiled === "Scripting" && coffee === "No" && gophers === "No" && monty === "Yes" && semiColons === "No") {
     $('#python').show();
