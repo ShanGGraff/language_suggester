@@ -23,7 +23,7 @@ This is a basic website to suggest which programming language one should learn b
 * Fork website from https://github.com/ShanGGraff/language_suggester
 
 ## Known Bugs
-* User has to manually refresh page if they want to get rid of the previous answer and re-take the survery. 
+* No known 
 
 ## License
 MIT
